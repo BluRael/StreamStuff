@@ -11,6 +11,11 @@ When I have an idea for something for use on my stream, I'll code it into this a
 ### Counters
 The counters tab allows you to create and control counters and output them to files that can then be displayed on stream. Alternatively, it will have a preview mode that allows it to be captured onto a stream and chroma keyed. The colours will eventually be customisable.
 
+##
+## Wait... where's the download link?
+The project has only just started so it isn't ready to be release even with one feature yet.
+
+Once it is ready to go, there will be a download link so you can try it out.
 
 ##
 ## Ideas? Bugs? Questions?
