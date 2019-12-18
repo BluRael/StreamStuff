@@ -21,6 +21,7 @@ namespace StreamStuff
 
         public MainWindow()
         {
+            //Tested commenting
             InitializeComponent();
         }
         private void keySnooper()
