@@ -42,6 +42,7 @@
             this.chk_enableListener = new System.Windows.Forms.CheckBox();
             this.Credits = new System.Windows.Forms.TabPage();
             this.lbl_credits = new System.Windows.Forms.Label();
+            this.btn_resetCounters = new System.Windows.Forms.Button();
             this.tabSelector.SuspendLayout();
             this.CounterTemp.SuspendLayout();
             this.grp_preview.SuspendLayout();
@@ -68,6 +69,7 @@
             this.CounterTemp.Controls.Add(this.lbl_finishText);
             this.CounterTemp.Controls.Add(this.lbl_resetText);
             this.CounterTemp.Controls.Add(this.btn_manualFinish);
+            this.CounterTemp.Controls.Add(this.btn_resetCounters);
             this.CounterTemp.Controls.Add(this.btn_keyRedefine);
             this.CounterTemp.Controls.Add(this.btn_manualReset);
             this.CounterTemp.Controls.Add(this.chk_enableListener);
@@ -147,9 +149,9 @@
             // 
             this.btn_keyRedefine.Location = new System.Drawing.Point(9, 60);
             this.btn_keyRedefine.Name = "btn_keyRedefine";
-            this.btn_keyRedefine.Size = new System.Drawing.Size(171, 23);
+            this.btn_keyRedefine.Size = new System.Drawing.Size(83, 23);
             this.btn_keyRedefine.TabIndex = 1;
-            this.btn_keyRedefine.Text = "Redefine Keys";
+            this.btn_keyRedefine.Text = "Rebind Keys";
             this.btn_keyRedefine.UseVisualStyleBackColor = true;
             this.btn_keyRedefine.Click += new System.EventHandler(this.btn_keyRedefine_Click);
             // 
@@ -196,6 +198,16 @@
     "github.com/Indieteur/GlobalHooks";
             this.lbl_credits.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
+            // btn_resetCounters
+            // 
+            this.btn_resetCounters.Location = new System.Drawing.Point(97, 60);
+            this.btn_resetCounters.Name = "btn_resetCounters";
+            this.btn_resetCounters.Size = new System.Drawing.Size(83, 23);
+            this.btn_resetCounters.TabIndex = 1;
+            this.btn_resetCounters.Text = "Reset Count";
+            this.btn_resetCounters.UseVisualStyleBackColor = true;
+            this.btn_resetCounters.Click += new System.EventHandler(this.btn_resetCounters_Click);
+            // 
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -231,6 +243,7 @@
         private System.Windows.Forms.Label lbl_resetKey;
         private System.Windows.Forms.Label lbl_outputPreview;
         private System.Windows.Forms.Label lbl_credits;
+        private System.Windows.Forms.Button btn_resetCounters;
     }
 }
 
