@@ -298,5 +298,10 @@ namespace StreamStuff
                 Thread t = new Thread(ts); t.Start();
             }
         }
+        private void btn_resetCounters_Click(object sender, EventArgs e)
+        {
+            DialogResult r = MessageBox.Show("This will reset both counters to ZERO.", "Are you sure?", MessageBoxButtons
+                .YesNo); if (r == DialogResult.Yes) { resetCount = finishCount = 0; updateFile(); }
+        }
     }
 }
